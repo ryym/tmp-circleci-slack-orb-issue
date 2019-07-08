@@ -16,7 +16,6 @@ jobs:
     steps:
       - checkout
       - slack/status:
-          success_message: OK
           mentions: ryym
           webhook: https://hooks.slack.com/services/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
   
